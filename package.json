@@ -1,6 +1,7 @@
 {
     "name": "with-rhythm",
     "description": "Configurable typography",
+    "version": "1.0.0",
     "license": "MIT",
     "source": "src/index.ts",
     "main": "dist/with-rhythm.js",
@@ -11,6 +12,9 @@
         "build": "microbundle",
         "dev": "microbundle watch"
     },
+    "files": [
+        "dist"
+    ],
     "devDependencies": {
         "@babel/core": "^7.4.4",
         "@babel/preset-env": "^7.4.4",
